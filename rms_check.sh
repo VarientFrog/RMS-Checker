@@ -16,7 +16,7 @@ if [[ ! -d "$INPUT_DIR" ]]; then
 fi
 
 # --- Prompt for RMS thresholds ---
-MIN_RMS=$(osascript -e 'text returned of (display dialog "Enter minimum RMS (e.g. -24):" default answer "-24")')
+MIN_RMS=$(osascript -e 'text returned of (display dialog "Enter minimum RMS (e.g. -23):" default answer "-23")')
 MAX_RMS=$(osascript -e 'text returned of (display dialog "Enter maximum RMS (e.g. -18):" default answer "-18")')
 MAX_PEAK=$(osascript -e 'text returned of (display dialog "Enter maximum peak volume (e.g. -3):" default answer "-3")')
 
